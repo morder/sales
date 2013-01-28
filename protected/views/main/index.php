@@ -90,23 +90,27 @@
     });
 </script>
 
-<div class=​"container-fluid">​<div class="container-fluid">
-    <div class="row-fluid">
+<div class="row">
 
-        <form id="map-search-form" class="form-search" onsubmit="return false;">
-            <div class="input-append">
-                <input type="text" class="search-query input-xxlarge" placeholder="Введите интересующий вас адрес">
-                <button id="map-search-btn" type="submit" class="btn">Поиск</button>
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <form id="map-search-form" class="form-search" onsubmit="return false;">
+                <div class="input-append">
+                    <input type="text" class="search-query input-xxlarge" placeholder="Введите интересующий вас адрес">
+                    <button id="map-search-btn" type="submit" class="btn">Поиск</button>
+                </div>
+            </form>
+
+            <div id="yandexMap" class="img-polaroid" style="height: 500px"></div>
+
+            <div class="hero-unit">
+                <h1>Hello, world!</h1>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <p><a class="btn btn-primary btn-large">Learn more »</a></p>
             </div>
-        </form>
 
-        <div id="yandexMap" class="img-polaroid" style="height: 500px"></div>
-
-        <div class="hero-unit">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-large">Learn more »</a></p>
         </div>
-
     </div>
+
 </div>
